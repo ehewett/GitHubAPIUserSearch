@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.user-handle {
+  border: 2px black solid;
+}
+
+.button {
+  background-color: aqua;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
+
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.repo-results {
+  margin-top: 40px;
+}
+
+.repo-link {
+  flex: 70%;
+  margin-bottom: 10px;
+}
+
+.repo-name {
+  flex: 30%;
+  margin-bottom: 10px;
+}
